@@ -1,0 +1,54 @@
+{
+  "name": "graphql-tutorial-ts",
+  "version": "1.0.0",
+  "description": "A step by step tutorial for GraphQL using Node.js, TypeScript, express and typeORM with MongoDB",
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Vincent DAGOURY",
+    "email": "vincent.dagoury@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vincedgy/graphql-tutorial-ts"
+  },
+  "devDependencies": {
+    "@types/graphql-iso-date": "^3.3.3",
+    "@types/logger": "^0.0.0",
+    "@types/node": "^12.12.5",
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "@typescript-eslint/parser": "^2.6.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2",
+    "ts-node": "8.4.1",
+    "typescript": "3.6.4"
+  },
+  "tags": [
+    "orm",
+    "typescript",
+    "typescript-orm",
+    "apollo-server",
+    "express"
+  ],
+  "dependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.2",
+    "@types/graphql": "^14.5.0",
+    "apollo-server-express": "^2.9.7",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "graphql-iso-date": "^3.6.1",
+    "graphql-tools": "^4.0.6",
+    "loggy": "^1.0.8",
+    "mongodb": "^3.0.8",
+    "reflect-metadata": "^0.1.12",
+    "typeorm": "0.2.20"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  }
+}

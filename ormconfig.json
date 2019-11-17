@@ -1,0 +1,8 @@
+{
+  "type": "mongodb",
+  "synchronize": true,
+  "logging": false,
+  "useNewUrlParser": true,
+  "useUnifiedTopology": true,
+  "ssl": true
+}
